@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_text">30sp</dimen>
+    <dimen name="button_size">60dp</dimen>
+    <dimen name="yPixels">0dp</dimen>
+    <dimen name="xPixels">0dp</dimen>
+    <dimen name="yMargin">10dp</dimen>
+    <dimen name="xMargin">10dp</dimen>
+    <dimen name="result_text_size">60sp</dimen>
+</resources>
