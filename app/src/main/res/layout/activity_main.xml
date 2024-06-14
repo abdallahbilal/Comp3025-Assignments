@@ -384,7 +384,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="zero"
+            android:tag="0"
             android:text="@string/zeroButton"
             android:textColor="@color/white"
             android:textSize="@dimen/button_text" />
@@ -400,7 +400,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="period"
+            android:tag="Delete"
             android:text="@string/backspace"
             android:textColor="@color/white"
             android:textSize="@dimen/button_text" />
@@ -416,7 +416,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="equals"
+            android:tag="="
             android:text="@string/equals"
             android:textColor="@color/black"
             android:textSize="@dimen/button_text" />
