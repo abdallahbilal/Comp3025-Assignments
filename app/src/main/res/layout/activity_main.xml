@@ -61,7 +61,7 @@
        android:fontFamily="@font/fasolid900"
        android:paddingStart="@dimen/xPixels"
        android:paddingEnd="@dimen/xPixels"
-       android:tag="clear"
+       android:tag="Clear"
        android:text="@string/clear"
        android:textColor="@color/black"
        android:textSize="@dimen/button_text" />
@@ -77,7 +77,7 @@
            android:fontFamily="@font/fasolid900"
            android:paddingStart="@dimen/xPixels"
            android:paddingEnd="@dimen/xPixels"
-           android:tag="decimal"
+           android:tag="."
            android:text="@string/decimalButton"
            android:textColor="@color/black"
            android:textSize="@dimen/button_text" />
@@ -93,7 +93,7 @@
            android:fontFamily="@font/fasolid900"
            android:paddingStart="@dimen/xPixels"
            android:paddingEnd="@dimen/xPixels"
-           android:tag="plusMinus"
+           android:tag="-"
            android:text="@string/plus_minus"
            android:textColor="@color/black"
            android:textSize="@dimen/button_text" />
@@ -109,7 +109,7 @@
            android:fontFamily="@font/fasolid900"
            android:paddingStart="@dimen/xPixels"
            android:paddingEnd="@dimen/xPixels"
-           android:tag="divide"
+           android:tag="/"
            android:text="@string/divide"
            android:textColor="@color/black"
            android:textSize="@dimen/button_text" />
@@ -140,7 +140,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="seven"
+            android:tag="7"
             android:text="@string/sevenButton"
             android:textColor="@color/white"
             android:textSize="@dimen/button_text" />
@@ -156,7 +156,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="eight"
+            android:tag="8"
             android:text="@string/eightButton"
             android:textColor="@color/white"
             android:textSize="@dimen/button_text" />
@@ -172,7 +172,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="nine"
+            android:tag="9"
             android:text="@string/nineButton"
             android:textColor="@color/white"
             android:textSize="@dimen/button_text" />
@@ -188,7 +188,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="multiply"
+            android:tag="*"
             android:text="@string/multiply"
             android:textColor="@color/black"
             android:textSize="@dimen/button_text" />
@@ -220,7 +220,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="four"
+            android:tag="4"
             android:text="@string/fourButton"
             android:textColor="@color/white"
             android:textSize="@dimen/button_text" />
@@ -237,7 +237,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="five"
+            android:tag="5"
             android:text="@string/fiveButton"
             android:textColor="@color/white"
             android:textSize="@dimen/button_text" />
@@ -253,7 +253,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="six"
+            android:tag="6"
             android:text="@string/sixButton"
             android:textColor="@color/white"
             android:textSize="@dimen/button_text" />
@@ -269,7 +269,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="minus"
+            android:tag="-"
             android:text="@string/minus"
             android:textColor="@color/black"
             android:textSize="@dimen/button_text" />
@@ -301,7 +301,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="one"
+            android:tag="1"
             android:text="@string/oneButton"
             android:textColor="@color/white"
             android:textSize="@dimen/button_text" />
@@ -318,7 +318,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="two"
+            android:tag="2"
             android:text="@string/twoButton"
             android:textColor="@color/white"
             android:textSize="@dimen/button_text" />
@@ -334,7 +334,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="three"
+            android:tag="3"
             android:text="@string/threeButton"
             android:textColor="@color/white"
             android:textSize="@dimen/button_text" />
@@ -350,7 +350,7 @@
             android:fontFamily="@font/fasolid900"
             android:paddingStart="@dimen/xPixels"
             android:paddingEnd="@dimen/xPixels"
-            android:tag="plus"
+            android:tag="+"
             android:text="@string/plus"
             android:textColor="@color/black"
             android:textSize="@dimen/button_text" />
