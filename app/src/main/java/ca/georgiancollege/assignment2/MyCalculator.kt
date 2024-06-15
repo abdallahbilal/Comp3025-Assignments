@@ -87,33 +87,11 @@ class MyCalculator(dataBinding: ActivityMainBinding) {
         when(tag)
         {
             "Clear" -> clear()
-            else -> {
+            "+" -> addition()
+            "-" -> subtraction()
 
-            }
-        }
-        when(tag)
-        {
-            "+" ->
-            {
-                if (result.isNotEmpty()){
-                    result=first
-                    first
-                    clear()
-
-                }
-
-            }
-            "=" ->
-            {
-                if (result.isNotEmpty())
-                    Log.i("onCreate", first)
-                    result = second
-                second
-                addition()
-            }
 
         }
-
 
 
     }
@@ -127,11 +105,38 @@ class MyCalculator(dataBinding: ActivityMainBinding) {
     // Addition function
     private fun addition(): Unit
     {
-        clear()
-        result = first + second
-        binding.resultView.text = result
+        if (result.isNotEmpty()){
+            result=first
+            binding.resultView.text = "0"
+            if (result.isNotEmpty()){
+                result= second
+                if (binding.equalsButton.isPressed){
+                    var answer = first + second
+                    binding.resultView.text = answer
+                    Log.i("onCreate",answer)
+                }
+            }
+
+        }
 
     }
+
+    private fun subtraction():Unit
+    {
+        if (result.isNotEmpty()){
+            result=first
+            binding.resultView.text = "0"
+            if (result.isNotEmpty()){
+                result=second
+                if (binding.equalsButton.isPressed){
+//                    var answer = second - first
+//                    binding.resultView.text = answer
+                }
+            }
+        }
+    }
+
+
 
 
 
