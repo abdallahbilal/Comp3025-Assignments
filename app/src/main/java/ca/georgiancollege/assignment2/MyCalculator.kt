@@ -1,13 +1,19 @@
 package ca.georgiancollege.assignment2
+import android.util.Log
 import ca.georgiancollege.assignment2.databinding.ActivityMainBinding
+import kotlin.math.log
 
 class MyCalculator(dataBinding: ActivityMainBinding) {
 
     private val binding: ActivityMainBinding = dataBinding
     private var result: String
+    private var first: String
+    private var second: String
 
     init {
         result = ""
+        first = ""
+        second = ""
         myButtons()
     }
 
@@ -85,6 +91,29 @@ class MyCalculator(dataBinding: ActivityMainBinding) {
 
             }
         }
+        when(tag)
+        {
+            "+" ->
+            {
+                if (result.isNotEmpty()){
+                    result=first
+                    first
+                    clear()
+
+                }
+
+            }
+            "=" ->
+            {
+                if (result.isNotEmpty())
+                    Log.i("onCreate", first)
+                    result = second
+                second
+                addition()
+            }
+
+        }
+
 
 
     }
@@ -93,6 +122,15 @@ class MyCalculator(dataBinding: ActivityMainBinding) {
     {
         result = ""
         binding.resultView.text = "0"
+    }
+
+    // Addition function
+    private fun addition(): Unit
+    {
+        clear()
+        result = first + second
+        binding.resultView.text = result
+
     }
 
 
