@@ -53,20 +53,19 @@ class MyCalculator(dataBinding: ActivityMainBinding) {
 
                 binding.resultView.text = if(result.isEmpty() || result=="-") "0" else result
             }
-            "Plus_Minus" -> {
+            "plus_minus" -> {
                 if(result.startsWith("-"))
                 {
                     result = result.substring(1)
-                    binding.resultView.text = result
                 }
                 else
                 {
                     if(result.isNotEmpty())
                     {
                         result = "-".plus(result)
-                        binding.resultView.text = result
                     }
                 }
+                binding.resultView.text = result
             }
             else -> {
                 if(binding.resultView.text == "0")
