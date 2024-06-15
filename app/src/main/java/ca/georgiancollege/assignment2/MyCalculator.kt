@@ -123,6 +123,7 @@ class MyCalculator(dataBinding: ActivityMainBinding) {
 
     }
 
+    // Subtraction function
     private fun subtraction():Unit
     {
         if (result.isNotEmpty()){
@@ -138,6 +139,7 @@ class MyCalculator(dataBinding: ActivityMainBinding) {
         }
     }
 
+    // Multiplication function
     private fun multiplication():Unit
     {
         if (result.isNotEmpty()){
@@ -153,6 +155,7 @@ class MyCalculator(dataBinding: ActivityMainBinding) {
         }
     }
 
+    // Division function
     private fun division():Unit
     {
         if (result.isNotEmpty()){

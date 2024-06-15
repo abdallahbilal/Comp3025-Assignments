@@ -12,8 +12,8 @@ import ca.georgiancollege.assignment2.databinding.ActivityMainBinding
 /*
 *  Abdallah Bilal
 *  200494848
-*  24/05/2024
-*  Calculator UI
+*  16/06/2024
+*  Calculator Functionality
 *
 * */
 
