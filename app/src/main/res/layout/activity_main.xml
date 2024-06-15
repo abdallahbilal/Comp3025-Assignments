@@ -33,7 +33,9 @@
                 android:paddingTop="@dimen/yPixels"
                 android:paddingEnd="@dimen/yPixels"
                 android:text="@string/results"
-                android:textSize="@dimen/result_text_size" />
+                android:textSize="@dimen/result_text_size"
+                android:maxLines="1"
+                android:maxLength="10"/>
         </LinearLayout>
 
 
