@@ -89,6 +89,8 @@ class MyCalculator(dataBinding: ActivityMainBinding) {
             "Clear" -> clear()
             "+" -> addition()
             "-" -> subtraction()
+            "*" -> multiplication()
+            "/" -> division()
 
 
         }
@@ -130,6 +132,36 @@ class MyCalculator(dataBinding: ActivityMainBinding) {
                 result=second
                 if (binding.equalsButton.isPressed){
 //                    var answer = second - first
+//                    binding.resultView.text = answer
+                }
+            }
+        }
+    }
+
+    private fun multiplication():Unit
+    {
+        if (result.isNotEmpty()){
+            result=first
+            binding.resultView.text = "0"
+            if (result.isNotEmpty()){
+                result=second
+                if (binding.equalsButton.isPressed){
+//                    var answer = second * first
+//                    binding.resultView.text = answer
+                }
+            }
+        }
+    }
+
+    private fun division():Unit
+    {
+        if (result.isNotEmpty()){
+            result=first
+            binding.resultView.text = "0"
+            if (result.isNotEmpty()){
+                result=second
+                if (binding.equalsButton.isPressed){
+//                   var answer = second / first
 //                    binding.resultView.text = answer
                 }
             }
